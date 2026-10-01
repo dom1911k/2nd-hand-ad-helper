@@ -6,6 +6,8 @@ const SHELL = [
   './styles.css',
   './manifest.webmanifest',
   './icon.svg',
+  './icon-192.png',
+  './apple-touch-icon.png',
   './js/app.js',
   './js/defaults.js',
   './js/logic.js',

@@ -51,8 +51,19 @@ npm start          # serves on http://localhost:8080
 npm test           # unit tests for templates and the sold/take-down logic
 ```
 
-To use it on your phone, host the folder on any static host over HTTPS (GitHub Pages, Netlify,
-Cloudflare Pages …), open it, and choose **Add to Home Screen**. After the first load it works offline.
+### Live version (GitHub Pages)
+
+**https://dom1911k.github.io/2nd-hand-ad-helper/**
+
+Every push to the default branch runs the tests and redeploys (`.github/workflows/pages.yml`).
+One-time setup: repo **Settings → Pages → Source: GitHub Actions**.
+
+On your phone, open the link and add it to the home screen:
+- **iPhone (Safari):** Share → *Add to Home Screen*
+- **Android (Chrome):** ⋮ → *Add to Home screen* / *Install app*
+
+After the first load it works offline. The code is public, but your items and texts are
+not: they're stored only in the browser on your device.
 
 ## Not in v1 (ideas)
 
